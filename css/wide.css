@@ -1,0 +1,20 @@
+@font-face{
+    src: url(Lato-Regular.ttf);
+    font-family: Lato;
+}
+
+@font-face{
+    src: url(Lato-Bold.ttf);
+    font-family: Lato;
+    font-weight: bold;
+}
+
+body{
+    font-family: Lato;
+}
+
+@media screen and (max-width: 400px){
+    nav, nav > a{
+        display: block;
+    }
+}
