@@ -11,10 +11,31 @@
 
 body{
     font-family: Lato;
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+}
+footer > a{
+    margin-bottom: 12px;
+    text-decoration: none;
+    /* border: 1px black solid; */
+    padding: 12px 4px;
+    /* max-width: 300px; */
+    text-align: center;
+    display: block;
 }
 
 @media screen and (max-width: 400px){
-    nav, nav > a{
-        display: block;
+    body{
+        font-size: 20px;
     }
-}
+    
+    nav > *{
+        display: block;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+}    
