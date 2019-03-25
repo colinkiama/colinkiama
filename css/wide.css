@@ -48,3 +48,9 @@ footer > a{
     }
 
 }    
+
+@media screen and (min-width:401px){
+    nav > div{
+        display: inline-block;
+    }
+}
