@@ -1,12 +1,14 @@
 @font-face{
     src: url(Lato-Regular.ttf);
     font-family: Lato;
+    font-display: auto;
 }
 
 @font-face{
     src: url(Lato-Bold.ttf);
     font-family: Lato;
     font-weight: bold;
+    font-display: auto;
 }
 
 body{
