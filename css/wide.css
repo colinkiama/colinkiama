@@ -34,7 +34,7 @@ footer{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 a{
@@ -45,8 +45,18 @@ a:visited{
     color:inherit;
 }
 
+span{
+    display: block;
+    margin-bottom: 8px;
+}
 
-footer > a{
+span > a{
+    font-weight: normal;
+    margin-right: 4px;
+}
+
+#contactMeButton{
+    margin-top: 12px;
     margin-bottom: 12px;
     text-decoration: none;
     width: 200px;

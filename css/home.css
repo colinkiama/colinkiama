@@ -1,9 +1,16 @@
 img{
     border-radius: 50%;
+    display: inline-block;
+    text-align: center;
 }
 
 main{
     text-align: center;
+    display: block;
+}
+
+p{
+    padding: 0 20%;
 }
 
 @media screen and (max-width: 600px){
