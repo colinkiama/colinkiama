@@ -1,0 +1,12 @@
+section{
+    margin-bottom: 100px;
+}
+
+section > *{
+    display: block;
+    margin-bottom: 16px;
+}   
+
+section > header{
+    font-weight: bold;
+}
