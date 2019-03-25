@@ -12,6 +12,11 @@
 body{
     font-family: Lato;
     font-size: 24px;
+    margin: 80px 100px 100px;
+}
+
+header{
+    margin-bottom: 60px;
 }
 
 footer{
@@ -20,15 +25,19 @@ footer{
     font-size: 20px;
 }
 
+a{
+    color: inherit;
+}
+
 a:visited{
     color:inherit;
 }
+
 
 footer > a{
     margin-bottom: 12px;
     text-decoration: none;
     width: 200px;
-    /* min-width: 100px; */
     border: 1px solid black;
     border-radius: 4px;
     padding: 20px 0;
@@ -38,9 +47,10 @@ footer > a{
     font-weight: normal;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
     body{
         font-size: 20px;
+        margin: 60px 32px 32px;
     }
     
     nav > *{
@@ -60,8 +70,12 @@ footer > a{
 
 }    
 
-@media screen and (min-width:401px){
+@media screen and (min-width:601px){
     nav > div{
         display: inline-block;
+    }
+
+    nav > *{
+        margin-right: 20px;
     }
 }
