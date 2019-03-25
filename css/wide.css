@@ -16,15 +16,19 @@ body{
 
 footer{
     text-align: center;
+    /* display: block; */
 }
 footer > a{
     margin-bottom: 12px;
     text-decoration: none;
-    /* border: 1px black solid; */
-    padding: 12px 4px;
-    /* max-width: 300px; */
+    width: 200px;
+    /* min-width: 100px; */
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px 0;
+    font-size: 24px;
     text-align: center;
-    display: block;
+    display: inline-block;
 }
 
 @media screen and (max-width: 400px){
@@ -36,6 +40,11 @@ footer > a{
         display: block;
         margin-bottom: 12px;
         text-align: center;
+    }
+
+    footer > a{
+        width: auto;
+        display: block;
     }
 
 }    
