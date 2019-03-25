@@ -3,6 +3,21 @@ section > *{
     margin-bottom: 20px;
 }
 
+section > div{
+    margin-bottom: 4px;
+}
+
+section{
+    margin-bottom: 60px;
+}
+
+section > a{
+    border: 1px black solid;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: inline-block;
+    text-decoration: none;
+}
 
 @media screen and (max-width: 600px){
     article{
