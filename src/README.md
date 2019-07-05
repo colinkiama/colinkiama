@@ -1,2 +1,0 @@
-# colinkiama
-My Portfolio Website
